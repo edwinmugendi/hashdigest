@@ -1,0 +1,20 @@
+{
+    "name": "edwinmugendi/hashdigest",
+    "description": "Hash Generator and Verifier",
+    "keywords": ["hash", "sha256"],
+    "authors": [
+        {
+            "name": "Edwin Mugendi",
+            "email": "edwinmugendi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.1.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "HashDigest": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
