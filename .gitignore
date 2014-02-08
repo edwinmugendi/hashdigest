@@ -37,4 +37,4 @@ publish
 .idea
 .afignore
 /public/media/homes/upload/
-nbproject
+/nbproject
