@@ -13,7 +13,7 @@ The easiest way to install Carbon is via composer. Create the following <code>co
 ```json
 "require": {
         "edwinmugendi/hashdigest": "master"
-    },
+    }
 ```
 <h3>Without Composer</h3>
 <p>Why not use <a href="http://getcomposer.org/">composer</a>? Anyway, Download <a href="https://github.com/edwinmugendi/hashdigest/blob/master/src/HashDigest/Digester.php">Digester.php</a> from the repo and save the file somewhere in your project.</p>
