@@ -10,10 +10,11 @@ $dataToHash = array(
     'work'=>'Software Engineer'
 );
 
-$hash = Digester::digest($dataToHash);
+$hash = Digester::digest($dataToHash,'sha256',false,'.','echo');
+
 
 echo 'Generated Hash is ';
-echo "\n";
+echo "\n<p>";
 echo $hash;
 echo "\n";
 $isValid = Digester::isHashValid($hash, $dataToHash);
