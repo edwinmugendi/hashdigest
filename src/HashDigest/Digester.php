@@ -44,7 +44,7 @@ class Digester
         } //E# if else statement
 
         if ($verbose) {
-            $verboseString = 'String to hash: ' . $strToHash;
+            $verboseString = '********************String to hash: ' . $strToHash;
             if ($verbose == 'echo') {
                 echo $verboseString;
             } else if ($verbose == 'log') {
