@@ -52,7 +52,7 @@ class Digester
             } else if ($verbose == 'var_dump') {
                 var_dump($verboseString);
             } //E# if else statement
-            
+
         } //E# if else statement
 
         return hash($algo, $strToHash, $raw_output);
@@ -68,9 +68,9 @@ class Digester
      * @param mixed $input String or array of data to be verified against
      * @return boolean true if hash is valid, false otherwise
      */
-    public static function isHashValid($hash, $input)
+    public static function isHashValid($hash, $input,$algo = 'sha256', $raw_output = false, $separator = '.', $verbose = '')
     {
-        return $hash == static::digest($input);
+        return $hash == static::digest($input,$algo, $raw_output, $separator);
     }
 
     //E# isHashValid() function
