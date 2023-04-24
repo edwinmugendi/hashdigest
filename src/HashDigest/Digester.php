@@ -33,7 +33,7 @@ class Digester
                 } //E# if statement
             } //E# foreach statement
 
-            var_dump($arrayToHash);
+            
             //sort by keys in ascending order
             ksort($dataToHash);
 
